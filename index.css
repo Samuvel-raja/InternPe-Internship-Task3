@@ -1,0 +1,112 @@
+
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   min-height: 90vh;
+   background-image: url("https://cdn.wallpapersafari.com/50/54/qZasoK.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.todo-container {
+    background-color: aliceblue;
+    width: 500px;
+  height: auto;
+    box-shadow: 1px 1px 1px 2px grey;
+    display: flex;
+    flex-direction: column;
+   padding: 50px;
+    
+}
+
+.todo-container input {
+    height: 40px;
+    width: 350px;
+    box-shadow: inset 1px 1px 1px 2px grey;
+    box-shadow: 1px 1px 1px 2px grey;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: white;
+    font-size: larger;
+    text-align: center;
+    font-weight: 500;
+
+}
+
+.todo-container .todo-but {
+    height: 40px;
+    width: 100px;
+    box-shadow: inset 1px 1px 1px 2px grey;
+    box-shadow: 1px 1px 1px 2px grey;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 800;
+    background-color: white;
+    color: black;
+}
+.todo-container .todo-but:hover
+{
+    background-color: aqua;
+    color: black;
+}
+
+/* .deletebutton {
+    width: 60px;
+    height: 40px;
+    background-color: black;
+    color: white;
+} */
+
+.todo-dis {
+    /* position: absolute;
+    top: 250px;
+    left: 600px; */
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.todo-field {
+    display: flex;
+   
+    gap: 10px;
+
+}
+.todo-list
+{
+    display: flex;
+    gap: 10px;
+}
+
+.todo-list p {
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    box-shadow: 1px 1px 1px 2px grey;
+    margin-left: 40px;
+}
+.todo-list button
+{
+    height: 50px;
+    background-color: black;
+    margin-top:35px;
+    color: aqua;
+    width: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+}
